@@ -84,11 +84,10 @@ section {
 }
 
 aside {
-    float: right; 
+    float: right;    
 }
 
 nav {
-    float: right;
     width: 270px;
     height: 180px;
     border: 1px solid #dddddd;
