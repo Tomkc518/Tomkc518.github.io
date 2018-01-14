@@ -16,9 +16,9 @@ a {
     text-decoration: none;
 }
 
-.main_header{
+.main_header {
     border-bottom: 2px solid #cccccc;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
     background-color: #ffffff;
 }
 
@@ -57,26 +57,24 @@ header {
 }
 
 .about,
-.portfolio{
+.portfolio {
     border-right: 2px solid #e7e2e2;
 }
 
-.main_section{
+.main_section {
     width: 960px;
     margin: auto;
 }
 
-section{
-    float: left;
+section {
     width: 650px;
-    height: 525px;
     border: 1px solid #dddddd;
     background-color: #ffffff;
     margin-top: 35px;
     line-height: 150%;
 }
 
-.p_header{
+.p_header {
     color: #4aaaa5;
     font-size: 30px;
     font-weight: bold;
@@ -85,7 +83,11 @@ section{
     padding-bottom: 15px;
 }
 
-nav{
+aside {
+    float: right; 
+}
+
+nav {
     float: right;
     width: 270px;
     height: 180px;
@@ -103,7 +105,7 @@ nav{
 
 .github,
 .linkedin,
-.stack{
+.stack {
     float: left;
     display: block;
     padding: 5px;
@@ -112,7 +114,7 @@ nav{
 }
 
 .p_header,
-.media_links{
+.media_links {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
@@ -150,7 +152,7 @@ footer {
     margin-right: 20px;
 }
 
-.about_me{
+.about_me {
     margin: 5%;
     font-size: 18px;
     text-indent: 50px;
