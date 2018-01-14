@@ -74,7 +74,6 @@ section{
     background-color: #ffffff;
     margin-top: 35px;
     line-height: 150%;
-    
 }
 
 .p_header{
@@ -144,14 +143,13 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 10%;
+    height: 100px;
     background-color: #666666;
     border-top: 10px solid #4aaaa5;
-  }
+}
 
 .footer_text {
     text-align: center;
     color: #ffffff;
     margin: 60px;
-    
 }
