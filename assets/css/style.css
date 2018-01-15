@@ -56,6 +56,12 @@ header {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+.about:hover,
+.portfolio:hover,
+.contact:hover {
+    font-size: 22px;
+}
+
 .about,
 .portfolio {
     border-right: 2px solid #e7e2e2;
@@ -110,6 +116,12 @@ nav {
     padding: 5px;
     margin-left: 2.5px;
     margin-right: 2.5px;  
+}
+
+.github_image:hover,
+.linkedin_image:hover,
+.stack_image:hover {
+    opacity: .5;
 }
 
 .p_header,
@@ -185,6 +197,10 @@ input[type=submit] {
     color: #ffffff;
 }
 
+input[type=submit]:hover {
+    box-shadow: 5px 5px 5px grey;
+}
+
 /* -------Portfolio Page Content------ */
 
 .project_links {
@@ -199,6 +215,14 @@ input[type=submit] {
     position: relative;
     display: inline-block;
     text-align: center;
+}
+
+.hangman_image:hover,
+.rpg_image:hover,
+.rutgers_image:hover,
+.rps_image:hover,
+.trivia_image:hover {
+    box-shadow: 10px 10px 5px grey;
 }
 
 .hangman,
