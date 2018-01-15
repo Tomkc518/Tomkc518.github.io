@@ -64,6 +64,7 @@ header {
 .main_section {
     width: 960px;
     margin: auto;
+    margin-bottom: 125px;
 }
 
 section {
@@ -196,6 +197,8 @@ input[type=submit] {
 .rps,
 .trivia {
     position: relative;
+    display: inline-block;
+    text-align: center;
 }
 
 .hangman,
@@ -206,7 +209,7 @@ input[type=submit] {
 .rutgers,
 .trivia,
 .rps {
-    padding-top: 10px;
+    padding-top: 40px;
 }
 
 .hangman_text,
@@ -215,10 +218,18 @@ input[type=submit] {
 .rps_text,
 .trivia_text {
     position: absolute;
-    left: 0;
-    bottom: 0;
+    top: 65%;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 25px;
+    width: 100%;
+    padding: 20px 0px;
 }
 
-
+.rpg_text,
+.hangman_text {
+    top: 60%
+}
 
 
