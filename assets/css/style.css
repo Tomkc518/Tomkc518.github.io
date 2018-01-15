@@ -114,7 +114,7 @@ nav {
 
 .p_header,
 .media_links {
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
 .media_links {
@@ -221,7 +221,7 @@ input[type=submit] {
     top: 65%;
     background-color: #4aaaa5;
     color: #ffffff;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
     font-size: 25px;
     width: 100%;
     padding: 20px 0px;
